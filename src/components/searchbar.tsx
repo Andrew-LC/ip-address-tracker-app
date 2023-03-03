@@ -16,12 +16,11 @@ export default function SearchBar() {
 
     const handleSubmit = (e: any) => {
         e.preventDefault()
-        getGeoData(temp).then((response: Promise<unknown>) => {
+        getGeoData(temp).then((response: unknown) => {
             if (response == false) {
                 window.alert("Wrong Input");
             } else {
                 setData(response)
-                console.log(response)
                 const position = [response.lat, response.lng];
                 setPosition(position)
             }
