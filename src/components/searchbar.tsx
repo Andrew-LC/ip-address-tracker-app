@@ -4,17 +4,6 @@ import { getGeoData } from "../utils/api"
 import { mapState, positionState } from "../recoil/states"
 import { useRecoilState } from 'recoil';
 
-type data = {
-    ip: string,
-    region: string,
-    city: string,
-    lat: number,
-    lng: number,
-    timezone: string,
-    isp: string
-}
-
-
 
 export default function SearchBar() {
     const [temp, setTemp] = useState("")
@@ -27,7 +16,7 @@ export default function SearchBar() {
 
     const handleSubmit = (e: any) => {
         e.preventDefault()
-        getGeoData(temp).then((response: Promise<data>) => {
+        getGeoData(temp).then((response: Promise<unknown>) => {
             if (response == false) {
                 window.alert("Wrong Input");
             } else {
