@@ -1,7 +1,8 @@
-import 'leaflet/dist/leaflet.css'
+import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet'
 import { useRecoilValue } from 'recoil';
 import { positionState } from "../recoil/states"
+import customMarker from '../assets/icon-location.svg'
 
 
 function MyComponent() {
@@ -9,9 +10,9 @@ function MyComponent() {
     const currentPosition = useRecoilValue(positionState);
     if (currentPosition.length !== 0) {
         map.setView([currentPosition[0], currentPosition[1]]);
-        return <Marker position={[currentPosition[0], currentPosition[1]]}></Marker>
+        return <Marker icon={customMarker} position={[currentPosition[0], currentPosition[1]]}></Marker>
     }
-    return <Marker position={[currentPosition[0], currentPosition[1]]}></Marker>
+    return <Marker icon={customMarker} position={[currentPosition[0], currentPosition[1]]}></Marker>
 }
 
 
