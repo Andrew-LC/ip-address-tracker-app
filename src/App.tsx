@@ -16,7 +16,7 @@ function Overlay() {
 function App() {
     return (
         <div className="min-h-screen flex flex-col items-center">
-            <div className="bg-mobile-bg flex-1 lg:bg-desktop-bg w-full bg-cover bg-no-repeat lg:flex-none lg:h-[280px]" />
+            <div className="bg-[#556ad0] bg-mobile-bg flex-1 lg:bg-desktop-bg w-full bg-cover bg-no-repeat lg:flex-none lg:h-[280px]" />
             <Overlay />
             <div className="flex-1 map w-full bg-red-100 z-0 relative">
                 <Map />
