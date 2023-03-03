@@ -16,7 +16,7 @@ export default function SearchBar() {
 
     const handleSubmit = (e: any) => {
         e.preventDefault()
-        getGeoData(temp).then((response: unknown) => {
+        getGeoData(temp).then((response: any) => {
             if (response == false) {
                 window.alert("Wrong Input");
             } else {
