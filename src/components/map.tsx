@@ -22,7 +22,7 @@ function MyComponent() {
 
 export default function Map() {
     return (
-        <MapContainer center={[34.826106, 135.260176]} zoom={15}>
+        <MapContainer center={[34.826106, 135.260176]} zoom={15} zoomControl={false}>
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
