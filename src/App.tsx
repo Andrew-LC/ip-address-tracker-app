@@ -1,7 +1,6 @@
 import SearchBar from "./components/searchbar"
 import Datacomponent from "./components/datacomponent"
 import Map from "./components/map"
-import { useState } from "react"
 
 function Overlay() {
     return (

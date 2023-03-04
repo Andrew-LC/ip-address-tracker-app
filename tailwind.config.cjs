@@ -11,8 +11,8 @@ module.exports = {
 		    'gray-darker': 'hsl(0, 0%, 59%)'
 	    },
     	    backgroundImage: {
-	        'mobile-bg': "url('./pattern-bg-mobile.png')",
-	        'desktop-bg': "url('./pattern-bg-desktop.png')",
+	        'mobile-bg': "url('/pattern-bg-mobile.png')",
+	        'desktop-bg': "url('/pattern-bg-desktop.png')",
 	    }
     },
   },
