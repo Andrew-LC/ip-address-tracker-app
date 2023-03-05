@@ -18,7 +18,7 @@ function DataCard({ title, value }: DataCardProps) {
 }
 
 
-function setValue(value: string) {
+function setValue(value: string | undefined) {
     if (!value) {
         return ("")
     } else if (value == ",") {
