@@ -53,7 +53,8 @@ async function getGeoData(value: string): Promise<dataProps> {
             lat: data.location.lat,
             lng: data.location.lng,
             timezone: data.location.timezone,
-            isp: data.isp
+            isp: data.isp,
+            status: true
         }
 
         return rawdata;
