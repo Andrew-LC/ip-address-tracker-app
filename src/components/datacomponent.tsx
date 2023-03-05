@@ -10,9 +10,9 @@ type DataCardProps = {
 
 function DataCard({ title, value }: DataCardProps) {
     return (
-        <div className="flex flex-col items-center justify-center lg:items-start">
-            <span className="font-bold text-[.7rem] text-gray-darker mb-2">{title}</span>
-            <h2 className="font-bold text-gray-dark text-2xl lg:text-3xl lg:break-words">{value}</h2>
+        <div className="h-[100%] flex flex-col items-center justify-center lg:items-start lg:flex-1 lg:p-1">
+            <span className="font-bold text-[.7rem] text-gray-darker mb-1 lg:mb-2">{title}</span>
+            <h2 className="font-bold text-gray-dark text-lg lg:text-2xl lg:break-words">{value}</h2>
         </div>
     );
 }

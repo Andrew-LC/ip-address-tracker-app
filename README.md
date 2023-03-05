@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/ss.png)
+![App Screenshot](./public/ss.png)
 
 ### Links
 
@@ -37,9 +37,14 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [TailwindCSS](https://tailwindcss.com/) - CSS library
+- [Recoil](https://recoiljs.org/) - React State Management library
+- [Leaflet Js](https://leafletjs.com/) 
+- [React Leaflet](https://react-leaflet.js.org/)
+- [Geoipify](https://geo.ipify.org/)
 
 ## Author
 
 - Website - [Andrew LC](https://andrew-lc.vercel.app/)
 - Frontend Mentor - [@Azeus3](https://www.frontendmentor.io/profile/Andrew-LC)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@azeus333](https://twitter.com/azeus333?t=Q3z7gtMsBIfrBCJt5TCVkg&s=09)
+- Linkedln - [Andrew Lamichhane](https://www.linkedin.com/in/andrew-lamichhane-34a397219/ttps://www.twitter.com/yourusername)
