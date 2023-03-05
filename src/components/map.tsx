@@ -12,9 +12,11 @@ const customIcon = new Icon({
 function MyComponent() {
     const map = useMap();
     const currentPosition = useRecoilValue(positionState);
-    map.setView([currentPosition[0], currentPosition[1]]);
-
-    return <Marker icon={customIcon} position={[currentPosition[0], currentPosition[1]]}></Marker>
+    if (currentPosition.length !== 0) {
+        map.setView([currentPosition[0], currentPosition[1]]);
+        return <Marker icon={customIcon} position={[currentPosition[0], currentPosition[1]]}></Marker>
+    }
+    return <Marker icon={customIcon} position={[53, 12]}></Marker>
 }
 
 
