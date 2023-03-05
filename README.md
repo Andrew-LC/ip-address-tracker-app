@@ -8,11 +8,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
-- [What I learned](#what-i-learned)
-- [Continued development](#continued-development)
-- [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
